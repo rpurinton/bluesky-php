@@ -1,0 +1,22 @@
+{
+    "name": "rpurinton/bluesky-php",
+    "description": "A PHP library to make posts on the Bluesky API",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RPurinton\\BlueSkyPHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Russell Purinton",
+            "email": "russell.purinton@gmail.com"
+        }
+    ],
+    "license": "MIT"
+}
