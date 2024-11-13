@@ -2,7 +2,7 @@
     "name": "rpurinton/bluesky-php",
     "description": "A PHP library to make posts on the Bluesky API",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "^7.0"
