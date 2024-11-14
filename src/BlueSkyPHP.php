@@ -120,13 +120,12 @@ class BlueSkyPHP
 
         return $facets;
     }
-
     private function calculateByteOffset($string, $charOffset)
     {
         // Get the substring up to the character offset
         $substring = mb_substr($string, 0, $charOffset, 'UTF-8');
 
         // Return the length in bytes of the substring
-        return strlen(mb_convert_encoding($substring, 'UTF-8'));
+        return mb_strlen($substring, '8bit');
     }
 }
